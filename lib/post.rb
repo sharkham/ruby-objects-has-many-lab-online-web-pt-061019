@@ -14,7 +14,8 @@ class Post
     if self.author.name
       self.author.name
     else
-    end 
+      nil 
+    end
   end
 
 end
